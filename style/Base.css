@@ -19,10 +19,12 @@
   Add a comment or two to your CSS.*/
 
   a{
+    /*applies to image links*/
     text-decoration: none;
     color: rgb(67, 41, 33);
   }
   a:hover{
+     /*applies to images links for hover*/
     color: blue
   }
 
@@ -79,10 +81,11 @@
     
   }
   header{
+    /*applies to table of contents head*/
     color: rgb(211, 164, 154);
-    font-family: papyrus;
+    font-family: Anton;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
     background-color: rgb(80, 59, 54);
     padding-top: 20px;
@@ -91,7 +94,7 @@
   }
   ol{
 
-    /*background-color: #ff6600;*/
+    /*applies to navigator*/
     padding-left: 3%;
     background-color: rgb(142, 108, 99);
     padding-top: 10px;
@@ -108,6 +111,7 @@
 
 
   #about {
+    /*for each nav text from: about to contacts*/
     background-color: rgb(187, 140, 123);
     border: 10px double rgb(84, 59, 54);
     font-size: 200%;
@@ -228,13 +232,10 @@
   }   
   #imagesource{
 
-    padding: -20px;
-
-
-        
+    padding: -20px;    
   }  
   ul{
-   
+    /*applies to list of hobbies*/
     color: #ffffff;
     display: inline-block;
     margin: 25px;
@@ -243,7 +244,7 @@
         
   } 
   #reading{
-
+    /*for each hobby text from:reading to anime*/
     border: 5px solid #493121;
     border-radius: 15px;
     margin: 10px;
@@ -272,9 +273,11 @@
     background-color: #805b43; 
   }  
   img{
+    /*image border*/
     border-radius: 10px;
     border: 10px solid #493121;
   }
   hr.new {
+    /*for separating line in the footer*/
     border: 1px solid #493121;
   }
