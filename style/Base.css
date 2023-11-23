@@ -1,8 +1,283 @@
-*{
-    background-color: blanchedalmond;
+*
+  /*Heading elements (minimum: customized font).
+
+  Give your biography section its own unique visual treatment.
+
+  Apply styles to your image elements (img, figure, figcaption).
+
+  Links.
+
+  Table (caption, headings, borders, etc).
+
+  Navigation.
+  Contact information.
+
+  Footer. This should be made to be an obvious footer.
+
+  Where appropriate, your sections, should receive some styling, so there is a clear visual separation between sections.
+  Any other elements you have used. See what is available to alter their presentation.
+  Add a comment or two to your CSS.*/
+
+  a{
+    /*applies to image links*/
+    text-decoration: none;
+    color: rgb(67, 41, 33);
+  }
+  a:hover{
+     /*applies to images links for hover*/
+    color: blue
+  }
+
+  body {
+
+    background-color: ivory;
+    color: rgb(162, 96, 72);
+    text-align: center;
+    font-size: 20px;
+    
+    }
  
+  h1{
+    background-color: #493121; 
+    color: #e0b3a9;
+    font-family: papyrus;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    float: top;
+    font-size: 30px;
+    margin: 50px;
+      
+  }
+  h2{
+    background-color: #493121;
+    color: #e0b3a9;
+    font-family: papyrus;
+    text-align: center;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  h3{
+    background-color: #493121;   
+    color: #e0b3a9;
+    font-family: papyrus;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  h4{
+    background-color: #493121;       
+    color: #e0b3a9;
+    font-family: papyrus;
+    text-align: center; 
+    font-size: 20px;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  header{
+    /*applies to table of contents head*/
+    color: rgb(211, 164, 154);
+    font-family: Anton;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: rgb(80, 59, 54);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  ol{
+
+    /*applies to navigator*/
+    padding-left: 3%;
+    background-color: rgb(142, 108, 99);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+  }
+ li{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+ }
+
+
+
+  #about {
+    /*for each nav text from: about to contacts*/
+    background-color: rgb(187, 140, 123);
+    border: 10px double rgb(84, 59, 54);
+    font-size: 200%;
+    font-family: papyrus;
+    font-weight: bold;
+    }
+  #about:hover{
+    color: blue;
+ 
+  }
+    #hobbies {
+      background-color: rgb(187, 140, 123);
+      border: 10px double rgb(84, 59, 54);
+      font-size: 200%;
+      font-family: papyrus;
+      font-weight: bold;
+      }
+    #hobbies:hover{
+      color: blue;
+    }
+      #foods {
+        background-color: rgb(187, 140, 123);
+        border: 10px double rgb(84, 59, 54);
+        font-size: 200%;
+        font-family: papyrus;
+        font-weight: bold;
+        }
+      #foods:hover{
+        color: blue;
+      }
+        #contacts {
+          background-color: rgb(187, 140, 123);
+          border: 10px double rgb(84, 59, 54);
+          font-size: 200%;
+          font-family: papyrus;
+          font-weight: bold;
+          }
+        #contacts:hover{
+          color: blue;
+        }
+  #aside1{
+    background-color: #765037b3;    
+    color: #ffffff;
+   
+    display: inline-block;
+    border-radius: 10px;
+    border: 5px dotted #493121;
+    word-wrap: break-word;
+    vertical-align: text-top;    
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #aside2{
+
+    background-color: #765037b3;    
+    color: #ffffff;
+   
+    display: inline-block;
+    border-radius: 10px;
+    border: 5px dotted #493121;
+    word-wrap: break-word;
+    vertical-align: text-top;    
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  } 
+  #aside3{
+    background-color: #765037b3;    
+    color: #ffffff;
+   
+    display: inline-block;
+    border-radius: 10px;
+    border: 5px dotted #493121;
+    word-wrap: break-word;
+    vertical-align: text-top;    
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  table{
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 5px solid #493121;
+    font-size: 20px;
+      
   }
 
 
+  thead{
 
+    background-color: #493121;    
+    color: #ffffff;
+    border: 3px solid green;
+    text-align: left;
+    font-size: 25px;
+    font-family: papyrus;
+    
+  }
+  tbody{
 
+    background-color: #7e5c46;    
+    color: #120a04;  
+    text-align: left;
+    font-family: papyrus;
+    font-weight: bold;
+    
+  }
+  footer{
+
+    background-color: #795e4b;  
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+        
+  }   
+  #imagesource{
+
+    padding: -20px;    
+  }  
+  ul{
+    /*applies to list of hobbies*/
+    color: #ffffff;
+    display: inline-block;
+    margin: 25px;
+    font-size: 30px;
+    width: 350px;
+        
+  } 
+  #reading{
+    /*for each hobby text from:reading to anime*/
+    border: 5px solid #493121;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #805b43;
+        
+  }  
+  #drawing{
+
+    border: 5px solid #493121;
+    border-radius: 15px; 
+    margin: 10px; 
+    background-color: #805b43;  
+  }  
+  #games{
+
+    border: 5px solid #493121;
+    border-radius: 15px;
+    margin: 10px; 
+    background-color: #805b43;  
+  }  
+  #anime{
+
+    border: 5px solid #493121;
+    border-radius: 15px;  
+    margin: 10px; 
+    background-color: #805b43; 
+  }  
+  img{
+    /*image border*/
+    border-radius: 10px;
+    border: 10px solid #493121;
+  }
+  hr.new {
+    /*for separating line in the footer*/
+    border: 1px solid #493121;
+  }
