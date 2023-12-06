@@ -5,6 +5,7 @@
   <head>
     <link rel="stylesheet" href="./style/Base.css"  media="screen"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton">
+    <script async src="./style/Base.js"></script>
     <title>My Portfolio</title>
   </head>
 
@@ -15,13 +16,21 @@
     <header>Table of Contents</header>
 
     <nav>
-        <ol>
+        <ol> 
             <li><a href="#about"><section id="about">About Me</section></a></li>
             <li><a href="#hobbies"><section id="hobbies">My Hobbies</section></a></li>
             <li><a href="#foods"><section id="foods">My Favourite Foods</section></a></li>
             <li><a href="#contacts"><section id="contacts">Contacts</section></a></li>
+            <button id="btn-alert">BUTTON</button id>
         </ol>
     </nav>
+    <button id="btn-counter">add</button id>
+    <p id="txt-counter">Number: 0</p>
+
+    <ol id="numbers">
+      
+    </ol>
+
 
     <main>
         <section id="#about">
@@ -119,7 +128,7 @@
     </section>
     <p>peppermintorange@gmail.com</p>
     <hr class="new">
-    <p>©Emma Mcmillin,2023</p>
+    <p>©Emma Mcmillin,<p id="year"></p>
     <p>images credited under the unsplash license</p>
   </footer>
 

@@ -92,14 +92,13 @@
     padding-bottom: 20px;
     border-radius: 10px;
   }
-  ol{
+  nav{
 
     /*applies to navigator*/
     padding-left: 3%;
     background-color: rgb(142, 108, 99);
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
+    border-radius: 10px;
 
   }
  li{
@@ -151,6 +150,40 @@
           }
         #contacts:hover{
           color: blue;
+        }
+        #btn-alert{
+          background-color: rgb(187, 140, 123);
+          border: 10px double rgb(84, 59, 54);
+          font-size: 170%;
+          font-family: Anton;
+          color: #493121;
+        }
+        #btn-alert:hover{
+          color: rgb(194, 0, 0);
+        }
+        #btn-counter{
+          background-color: rgb(226, 174, 156);
+          border: 4px solid rgb(142, 100, 92);
+          border-radius: 10px;
+          font-size: 80%;
+          font-family: Anton;
+          color: #7b543a;
+        }
+        #btn-counter:hover{
+          color: blue;
+          opacity: 80%;
+        }
+        #txt-counter{
+          color: green;
+
+        }
+        #txt-counter.odd {
+          color: red;
+        }
+        #numbers{
+          background-color: #e0b3a9;
+          padding: 30px;
+          border-radius: 10px;
         }
   #aside1{
     background-color: #765037b3;    
